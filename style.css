@@ -1,0 +1,79 @@
+/*navigering*/
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 3;
+
+
+}
+
+#leftmeny {
+    padding: 2rem;
+    flex: 1;
+}
+
+.leftmeny li {
+    background-color: yellow;
+
+
+    border: 10px solid green;
+    padding: 30px;
+    margin: 10px;
+    list-style: none;
+}
+
+.leftmeny li a {
+    background-color: yellow;
+    border: 10px solid green;
+    padding: 30px;
+    margin: 10px;
+    list-style: none;
+
+}
+
+.leftmeny li b {
+    background-color: yellow;
+
+    border: 10px solid green;
+    padding: 30px;
+    margin: 10px;
+    list-style: none;
+}
+
+#bilden {
+    flex: 1;
+    padding: 2rem;
+}
+
+.bilden {
+    max-width: 20rem;
+    width: 25rem;
+}
+
+
+.projekt {
+    flex: 1;
+    padding: 2rem;
+}
+
+#mina_projekt {
+
+    margin-left: 51px;
+}
+
+
+.boxar {
+    margin: 6px 51px;
+    list-style-type: none;
+}
+
+box li {
+    list-style-type: none;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: row;
+    }
+}
